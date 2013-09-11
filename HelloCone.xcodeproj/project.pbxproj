@@ -11,13 +11,18 @@
 		B5AEFD8217E0139C00257CC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AEFD8117E0139C00257CC5 /* Foundation.framework */; };
 		B5AEFD8417E0139C00257CC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AEFD8317E0139C00257CC5 /* CoreGraphics.framework */; };
 		B5AEFD8A17E0139C00257CC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5AEFD8817E0139C00257CC5 /* InfoPlist.strings */; };
-		B5AEFD8C17E0139C00257CC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AEFD8B17E0139C00257CC5 /* main.m */; };
-		B5AEFD9017E0139C00257CC5 /* HelloConeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AEFD8F17E0139C00257CC5 /* HelloConeAppDelegate.m */; };
+		B5AEFD8C17E0139C00257CC5 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5AEFD8B17E0139C00257CC5 /* main.mm */; };
+		B5AEFD9017E0139C00257CC5 /* HelloConeAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5AEFD8F17E0139C00257CC5 /* HelloConeAppDelegate.mm */; };
 		B5AEFD9217E0139C00257CC5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AEFD9117E0139C00257CC5 /* Default.png */; };
 		B5AEFD9417E0139C00257CC5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AEFD9317E0139C00257CC5 /* Default@2x.png */; };
 		B5AEFD9617E0139C00257CC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AEFD9517E0139C00257CC5 /* Default-568h@2x.png */; };
-		B5AEFD9917E0139C00257CC5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AEFD9717E0139C00257CC5 /* MainStoryboard.storyboard */; };
-		B5AEFD9C17E0139C00257CC5 /* HelloConeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AEFD9B17E0139C00257CC5 /* HelloConeViewController.m */; };
+		B5AEFDA517E0141800257CC5 /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5AEFDA417E0141800257CC5 /* GLView.mm */; };
+		B5AEFDB317E0152800257CC5 /* RenderingEngine1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5AEFDB117E0152700257CC5 /* RenderingEngine1.cpp */; };
+		B5AEFDB417E0152800257CC5 /* RenderingEngine2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5AEFDB217E0152800257CC5 /* RenderingEngine2.cpp */; };
+		B5AEFDBB17E0158F00257CC5 /* Simple.frag in Sources */ = {isa = PBXBuildFile; fileRef = B5AEFDB917E0158F00257CC5 /* Simple.frag */; };
+		B5AEFDBC17E0158F00257CC5 /* Simple.vert in Sources */ = {isa = PBXBuildFile; fileRef = B5AEFDBA17E0158F00257CC5 /* Simple.vert */; };
+		B5AEFDBE17E015F100257CC5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AEFDBD17E015F000257CC5 /* OpenGLES.framework */; };
+		B5AEFDC017E0162400257CC5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AEFDBF17E0162400257CC5 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,16 +32,22 @@
 		B5AEFD8317E0139C00257CC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B5AEFD8717E0139C00257CC5 /* HelloCone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCone-Info.plist"; sourceTree = "<group>"; };
 		B5AEFD8917E0139C00257CC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B5AEFD8B17E0139C00257CC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5AEFD8B17E0139C00257CC5 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		B5AEFD8D17E0139C00257CC5 /* HelloCone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCone-Prefix.pch"; sourceTree = "<group>"; };
 		B5AEFD8E17E0139C00257CC5 /* HelloConeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloConeAppDelegate.h; sourceTree = "<group>"; };
-		B5AEFD8F17E0139C00257CC5 /* HelloConeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloConeAppDelegate.m; sourceTree = "<group>"; };
+		B5AEFD8F17E0139C00257CC5 /* HelloConeAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloConeAppDelegate.mm; sourceTree = "<group>"; };
 		B5AEFD9117E0139C00257CC5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B5AEFD9317E0139C00257CC5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B5AEFD9517E0139C00257CC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B5AEFD9817E0139C00257CC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B5AEFD9A17E0139C00257CC5 /* HelloConeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloConeViewController.h; sourceTree = "<group>"; };
-		B5AEFD9B17E0139C00257CC5 /* HelloConeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloConeViewController.m; sourceTree = "<group>"; };
+		B5AEFDA317E0141800257CC5 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		B5AEFDA417E0141800257CC5 /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLView.mm; sourceTree = "<group>"; };
+		B5AEFDB017E0152700257CC5 /* IRenderingEngine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IRenderingEngine.hpp; path = VC/IRenderingEngine.hpp; sourceTree = "<group>"; };
+		B5AEFDB117E0152700257CC5 /* RenderingEngine1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderingEngine1.cpp; path = VC/RenderingEngine1.cpp; sourceTree = "<group>"; };
+		B5AEFDB217E0152800257CC5 /* RenderingEngine2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderingEngine2.cpp; path = VC/RenderingEngine2.cpp; sourceTree = "<group>"; };
+		B5AEFDB917E0158F00257CC5 /* Simple.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Simple.frag; path = shaders/Simple.frag; sourceTree = "<group>"; };
+		B5AEFDBA17E0158F00257CC5 /* Simple.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Simple.vert; path = shaders/Simple.vert; sourceTree = "<group>"; };
+		B5AEFDBD17E015F000257CC5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B5AEFDBF17E0162400257CC5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5AEFDC017E0162400257CC5 /* QuartzCore.framework in Frameworks */,
+				B5AEFDBE17E015F100257CC5 /* OpenGLES.framework in Frameworks */,
 				B5AEFD8017E0139C00257CC5 /* UIKit.framework in Frameworks */,
 				B5AEFD8217E0139C00257CC5 /* Foundation.framework in Frameworks */,
 				B5AEFD8417E0139C00257CC5 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +86,8 @@
 		B5AEFD7E17E0139C00257CC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5AEFDBF17E0162400257CC5 /* QuartzCore.framework */,
+				B5AEFDBD17E015F000257CC5 /* OpenGLES.framework */,
 				B5AEFD7F17E0139C00257CC5 /* UIKit.framework */,
 				B5AEFD8117E0139C00257CC5 /* Foundation.framework */,
 				B5AEFD8317E0139C00257CC5 /* CoreGraphics.framework */,
@@ -83,11 +98,11 @@
 		B5AEFD8517E0139C00257CC5 /* HelloCone */ = {
 			isa = PBXGroup;
 			children = (
-				B5AEFD8E17E0139C00257CC5 /* HelloConeAppDelegate.h */,
-				B5AEFD8F17E0139C00257CC5 /* HelloConeAppDelegate.m */,
-				B5AEFD9717E0139C00257CC5 /* MainStoryboard.storyboard */,
-				B5AEFD9A17E0139C00257CC5 /* HelloConeViewController.h */,
-				B5AEFD9B17E0139C00257CC5 /* HelloConeViewController.m */,
+				B5AEFDB017E0152700257CC5 /* IRenderingEngine.hpp */,
+				B5AEFDB117E0152700257CC5 /* RenderingEngine1.cpp */,
+				B5AEFDB217E0152800257CC5 /* RenderingEngine2.cpp */,
+				B5AEFDA217E0140300257CC5 /* VC */,
+				B5AEFDAB17E014AB00257CC5 /* shaders */,
 				B5AEFD8617E0139C00257CC5 /* Supporting Files */,
 			);
 			path = HelloCone;
@@ -96,15 +111,35 @@
 		B5AEFD8617E0139C00257CC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5AEFD8E17E0139C00257CC5 /* HelloConeAppDelegate.h */,
+				B5AEFD8F17E0139C00257CC5 /* HelloConeAppDelegate.mm */,
 				B5AEFD8717E0139C00257CC5 /* HelloCone-Info.plist */,
 				B5AEFD8817E0139C00257CC5 /* InfoPlist.strings */,
-				B5AEFD8B17E0139C00257CC5 /* main.m */,
+				B5AEFD8B17E0139C00257CC5 /* main.mm */,
 				B5AEFD8D17E0139C00257CC5 /* HelloCone-Prefix.pch */,
 				B5AEFD9117E0139C00257CC5 /* Default.png */,
 				B5AEFD9317E0139C00257CC5 /* Default@2x.png */,
 				B5AEFD9517E0139C00257CC5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5AEFDA217E0140300257CC5 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B5AEFDA317E0141800257CC5 /* GLView.h */,
+				B5AEFDA417E0141800257CC5 /* GLView.mm */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		B5AEFDAB17E014AB00257CC5 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				B5AEFDB917E0158F00257CC5 /* Simple.frag */,
+				B5AEFDBA17E0158F00257CC5 /* Simple.vert */,
+			);
+			name = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +198,6 @@
 				B5AEFD9217E0139C00257CC5 /* Default.png in Resources */,
 				B5AEFD9417E0139C00257CC5 /* Default@2x.png in Resources */,
 				B5AEFD9617E0139C00257CC5 /* Default-568h@2x.png in Resources */,
-				B5AEFD9917E0139C00257CC5 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +208,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5AEFD8C17E0139C00257CC5 /* main.m in Sources */,
-				B5AEFD9017E0139C00257CC5 /* HelloConeAppDelegate.m in Sources */,
-				B5AEFD9C17E0139C00257CC5 /* HelloConeViewController.m in Sources */,
+				B5AEFD8C17E0139C00257CC5 /* main.mm in Sources */,
+				B5AEFD9017E0139C00257CC5 /* HelloConeAppDelegate.mm in Sources */,
+				B5AEFDA517E0141800257CC5 /* GLView.mm in Sources */,
+				B5AEFDB317E0152800257CC5 /* RenderingEngine1.cpp in Sources */,
+				B5AEFDB417E0152800257CC5 /* RenderingEngine2.cpp in Sources */,
+				B5AEFDBB17E0158F00257CC5 /* Simple.frag in Sources */,
+				B5AEFDBC17E0158F00257CC5 /* Simple.vert in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +227,6 @@
 				B5AEFD8917E0139C00257CC5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B5AEFD9717E0139C00257CC5 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5AEFD9817E0139C00257CC5 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -264,6 +294,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloCone/HelloCone-Prefix.pch";
 				INFOPLIST_FILE = "HelloCone/HelloCone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +306,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloCone/HelloCone-Prefix.pch";
 				INFOPLIST_FILE = "HelloCone/HelloCone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

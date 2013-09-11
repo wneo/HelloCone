@@ -10,6 +10,8 @@
 #include <OpenGLES/ES1/glext.h>
 #include "IRenderingEngine.hpp"
 
+#include "Quaternion.hpp"
+
 
 static const float RevolutionPerSecond = 1;
 

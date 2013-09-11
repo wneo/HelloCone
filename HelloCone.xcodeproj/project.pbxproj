@@ -48,6 +48,9 @@
 		B5AEFDBA17E0158F00257CC5 /* Simple.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Simple.vert; path = shaders/Simple.vert; sourceTree = "<group>"; };
 		B5AEFDBD17E015F000257CC5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		B5AEFDBF17E0162400257CC5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B5AEFDC117E057B600257CC5 /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Vector.hpp; path = HelloCone/VC/Vector.hpp; sourceTree = "<group>"; };
+		B5AEFDC217E07DD700257CC5 /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Matrix.hpp; path = HelloCone/VC/Matrix.hpp; sourceTree = "<group>"; };
+		B5AEFDC317E07E2900257CC5 /* Quaternion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Quaternion.hpp; path = HelloCone/VC/Quaternion.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,9 @@
 		B5AEFD7317E0139C00257CC5 = {
 			isa = PBXGroup;
 			children = (
+				B5AEFDC317E07E2900257CC5 /* Quaternion.hpp */,
+				B5AEFDC217E07DD700257CC5 /* Matrix.hpp */,
+				B5AEFDC117E057B600257CC5 /* Vector.hpp */,
 				B5AEFD8517E0139C00257CC5 /* HelloCone */,
 				B5AEFD7E17E0139C00257CC5 /* Frameworks */,
 				B5AEFD7D17E0139C00257CC5 /* Products */,

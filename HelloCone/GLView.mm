@@ -7,9 +7,9 @@
 //
 
 #import "GLView.h"
-#import <OpenGLES/EAGLDrawable.h>
-#import <OpenGLES/ES2/gl.h> //  <-- for GL_RENDERBUFFER only
-#import <mach/mach_time.h>
+//#import <OpenGLES/EAGLDrawable.h>
+//#import <OpenGLES/ES2/gl.h> //  <-- for GL_RENDERBUFFER only
+//#import <mach/mach_time.h>
 
 
 @implementation GLView
@@ -22,18 +22,6 @@
         CAEAGLLayer *eaglLayer = (CAEAGLLayer *)super.layer;
         eaglLayer.opaque = YES;//自己控制 透明度等属性（默认由Quartz控制）， opengl很好控制
 		
-		
-//        //初始化 context 并设置 opengl api 的版本
-//        self.glContext = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES1];
-//        if ((! self.glContext) || (! [EAGLContext setCurrentContext:self.glContext]))  {
-//            self = nil;
-//            return nil;
-//        }
-//        //initialize for opengl
-//
-//      
-//        //1. 配置相关缓冲区
-//        self.renderEngine = CreateRenderer1();
 		
 		EAGLRenderingAPI api = kEAGLRenderingAPIOpenGLES2;
 		self.glContext = [[EAGLContext alloc] initWithAPI:api];
